@@ -1,0 +1,454 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+div.top-header{
+    padding: 1%;
+    
+}
+
+header{
+    background-color: #EAC926;
+    
+}
+
+header div.logo{
+    width: 50%;
+    padding: 10px;
+}
+
+
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{  
+    padding: 2px;
+    justify-content: space-between;
+}
+header .form .submit{
+    color: white;
+    width: 10%;
+    
+}
+
+header div.top-header p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+    margin-top: -10px;
+    
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    
+    right: 20px;
+    top: -15px;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+.flex-container{
+    display: flex;
+}
+.price{
+    width: 30%;
+}
+.discount{
+    width: 70%;
+}
+footer .footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px
+}
+footer p{
+    
+    margin: 40px
+}
+footer {
+    
+    margin-bottom: 10px;
+}
+.icon{
+    font-size: 18px;
+}
+.copy{
+    margin: 0;
+    text-align: left;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor2 .p{
+    padding: 10px;
+    font-size: 10px;
+    
+}   
+
+
+ .btn-login{
+    border: none;
+    width: 25%;
+    color: white;
+    font-size: 10px;
+    background: #2962d3;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15%;
+            
+}  
+
+    
+.ele label{
+    display: block;
+    padding-left: 15px;
+    padding: 10px;
+   
+     
+
+}
+.ele label input{
+
+margin-right: 10px;
+   
+     
+
+}
+
+.contenedor2{
+   
+    margin-top: 10px;
+    padding: 30px 30px;
+    width: 50%;
+    background-color: rgb(197, 193, 193);
+    border-radius: 10px;
+    margin-left: 25%;
+       
+}
+.contenedor-form p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contenedor2 .contenedor-form .main{
+
+    font-size: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+
+
+.contenedor-form{
+    padding: 15px;
+}
+
+.formfer{
+    background: #fff;
+    margin-top: -10px;
+    padding: 20px 20px;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(197, 193, 193);
+    
+}
+.btn-login{
+    border: none;
+    width: 50%;
+    color: white;
+    font-size: 10px;
+    background: #2962d3;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 25%;
+} 
+.formfer .usu{
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-top: 0;
+    text-align: center;
+    padding-left: 20px 40px;
+    
+}
+.formfer .usu input{
+    border-radius: 5px;
+    padding: 20px 40px;
+    
+    display: flex;
+    height: 30px;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+
+
+/*tablet*/
+@media (min-width: 480px){
+    div.burger-menu i{
+        display: none;
+    }
+    nav{
+        display:block;
+        margin: 10px;
+    }
+
+    main section article .description{
+        display: block;
+     
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .price{
+        width: 90%;
+    }
+    .discount{
+        width: 70%;
+    }
+    .products{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .products article{
+        width: 45%;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    
+}
+/*desktop*/
+@media (min-width: 769px){
+    .products article {
+        width: 20%;
+    }
+    
+    header .top-header{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    header p{  
+        padding: 20px;
+    }  
+
+    header nav {  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav ul {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 10px;
+        font-size: 14px;
+                
+    }  
+     
+
+    nav ul li  :hover {
+        
+        text-decoration:underline;
+                 
+    }   
+
+    header nav ul li{
+        padding: 10px 10px;
+        
+                 
+    } 
+
+    header div.logo{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+    } 
+
+    .fer .buscador{
+        margin-top: 20px;
+        padding: 10px 10px ;
+        border: none;
+        border-radius: 5px;
+       
+       
+    } 
+    .fer .btn-form{
+        margin: 0px;
+        padding: 10px 10px ;
+        border: none;
+        border-radius: 5px;
+    }
+
+    footer .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer .copy{ 
+        background-color:white ;
+        text-align: center;
+      
+    }
+    main section article .description{
+        opacity: 0;
+    }  
+    
+    main section article .description:hover{
+        opacity: 1;
+    }
+    .icon .fas{
+        color: #2962d3;
+    }
+    article .fas{
+        right: 15px;
+    }
+    .btn-login:hover{
+        border: none;
+        width: 50%;
+        color: white;
+        font-size: 10px;
+        background: #0022AA;
+        padding: 20px 40px;
+        margin-top: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 25%;
+    }
+
+    main section article .fas:hover{
+        transform: rotate(360deg);
+        transition: all 1s;
+        
+    
+    }
+    article .main-article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    article img:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+
