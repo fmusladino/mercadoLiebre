@@ -193,16 +193,16 @@ footer {
 
  .btn-login{
     border: none;
-    width: 25%;
-    color: white;
-    font-size: 10px;
-    background: #2962d3;
-    padding: 20px 40px;
-    margin-top: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 15%;
-            
+        width: 50%;
+        color: white;
+        font-size: 10px;
+        background: #0022AA;
+        padding: 20px 40px;
+        margin-top: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 25%;
+                
 }  
 
     
@@ -269,7 +269,7 @@ margin-right: 10px;
     font-size: 10px;
     background: #2962d3;
     padding: 20px 40px;
-    
+
 } 
 .formfer .usu{
     font-size: 10px;
@@ -284,7 +284,6 @@ margin-right: 10px;
 .formfer .usu input{
     border-radius: 5px;
     padding: 20px 40px;
-    
     display: flex;
     height: 30px;
     width: 50%;
